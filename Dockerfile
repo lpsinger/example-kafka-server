@@ -24,4 +24,4 @@ RUN adduser --system --group --home /nonexistent --no-create-home kafka && \
 USER kafka:kafka
 VOLUME /var/lib/kafka /var/log/kafka
 ENTRYPOINT /usr/local/bin/entrypoint.sh
-EXPOSE 2181 2888 3888 9092
+EXPOSE 9092

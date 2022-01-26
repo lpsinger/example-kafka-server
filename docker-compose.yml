@@ -3,13 +3,3 @@ services:
 
   kafka0:
     build: .
-    environment:
-      SERVER_ID: '0'
-  kafka1:
-    build: .
-    environment:
-      SERVER_ID: '1'
-  kafka2:
-    build: .
-    environment:
-      SERVER_ID: '2'
